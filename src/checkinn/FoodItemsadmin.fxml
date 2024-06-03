@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="875.0" style="-fx-background-color: FFF59D;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.FoodItemsadminController">
+    <stylesheets>
+        <URL value="@fooditems.css" />
+    </stylesheets>
+    <children>
+        <ImageView fx:id="pic" fitHeight="600.0" fitWidth="217.0" layoutX="3.0" pickOnBounds="true">
+            <image>
+                <Image url="@../image/foodmenu2.jpg" />
+            </image>
+        </ImageView>
+        <JFXButton fx:id="btn1" buttonType="RAISED" contentDisplay="CENTER" layoutX="230.0" layoutY="10.0" onAction="#foodc1" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="CONTINENTAL" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="22.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="170.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/continentalMenu.jpeg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn2" buttonType="RAISED" contentDisplay="CENTER" layoutX="440.0" layoutY="10.0" onAction="#foodb1" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="BENGALI" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/bengalimenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn3" buttonType="RAISED" contentDisplay="CENTER" layoutX="660.0" layoutY="10.0" onAction="#foodi1" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="INDIAN" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/indianMenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn4" buttonType="RAISED" contentDisplay="CENTER" layoutX="230.0" layoutY="210.0" onAction="#foodc2" prefHeight="168.0" prefWidth="185.0" stylesheets="@btnFoodadmin.css" text="CHINESE" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/chinesemenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn5" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="440.0" layoutY="210.0" onAction="#foodt1" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="THAI" textFill="WHITE">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/ThaiMenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn6" buttonType="RAISED" contentDisplay="CENTER" layoutX="660.0" layoutY="210.0" onAction="#foodi2" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="ITALIAN" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/ItalianMenu.jpeg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn7" buttonType="RAISED" contentDisplay="CENTER" layoutX="230.0" layoutY="410.0" onAction="#foodd1" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="DESSERTS" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/desertMenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="btn8" buttonType="RAISED" contentDisplay="CENTER" layoutX="440.0" layoutY="410.0" onAction="#foodi3" prefHeight="130.0" prefWidth="175.0" stylesheets="@btnFoodadmin.css" text="ICE CREAMS" textFill="#fffdfd">
+            <font>
+                <Font name="Arial Narrow Bold" size="25.0" />
+            </font>
+            <effect>
+                <Blend opacity="0.0">
+                    <topInput>
+                        <Glow level="0.18" />
+                    </topInput>
+                </Blend>
+            </effect>
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/iceCreamMenu.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <AnchorPane fx:id="pane" layoutX="20.0" layoutY="18.0" prefHeight="660.0" prefWidth="875.0" style="-fx-background-color: #F06292;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label fx:id="lbl1" layoutX="144.0" layoutY="30.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt1" layoutX="409.0" layoutY="30.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl2" layoutX="144.0" layoutY="95.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt2" layoutX="409.0" layoutY="95.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl3" layoutX="144.0" layoutY="160.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt3" layoutX="409.0" layoutY="160.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl4" layoutX="144.0" layoutY="225.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt4" layoutX="409.0" layoutY="225.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl5" layoutX="144.0" layoutY="290.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt5" layoutX="409.0" layoutY="290.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl6" layoutX="144.0" layoutY="355.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt6" layoutX="409.0" layoutY="355.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl7" layoutX="144.0" layoutY="415.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt7" layoutX="409.0" layoutY="415.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl8" layoutX="144.0" layoutY="475.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt8" layoutX="409.0" layoutY="475.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="lbl9" layoutX="144.0" layoutY="535.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txt9" layoutX="409.0" layoutY="535.0" prefHeight="25.0" prefWidth="105.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <JFXButton fx:id="savebtn1" layoutX="744.0" layoutY="530.0" onAction="#update1" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn2" layoutX="744.0" layoutY="530.0" onAction="#update2" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn3" layoutX="744.0" layoutY="530.0" onAction="#update3" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn4" layoutX="744.0" layoutY="530.0" onAction="#update4" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn5" layoutX="744.0" layoutY="530.0" onAction="#update5" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn6" layoutX="744.0" layoutY="530.0" onAction="#update6" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn7" layoutX="744.0" layoutY="530.0" onAction="#update7" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="savebtn8" layoutX="744.0" layoutY="530.0" onAction="#update8" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="backbtn" layoutX="647.0" layoutY="527.0" onAction="#show" style="-fx-background-color: #009688;" stylesheets="@btn.css" text="Back">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <Label fx:id="lb1" layoutX="525.0" layoutY="30.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb2" layoutX="525.0" layoutY="95.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb3" layoutX="525.0" layoutY="160.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb4" layoutX="525.0" layoutY="225.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb5" layoutX="525.0" layoutY="290.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb6" layoutX="525.0" layoutY="355.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb7" layoutX="525.0" layoutY="415.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb8" layoutX="525.0" layoutY="475.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lb9" layoutX="525.0" layoutY="535.0" text="BDT">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

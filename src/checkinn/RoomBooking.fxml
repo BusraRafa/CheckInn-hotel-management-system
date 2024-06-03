@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="997.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.RoomBookingController">
+    <stylesheets>
+        <URL value="@roombooking.css" />
+    </stylesheets>
+    <children>
+        <ImageView fitHeight="287.0" fitWidth="997.0" layoutY="-3.0" pickOnBounds="true">
+            <image>
+                <Image url="@../image/S4.jpg" />
+            </image>
+            <effect>
+                <Blend opacity="0.36">
+                    <topInput>
+                        <GaussianBlur radius="12.31">
+                            <input>
+                                <Shadow />
+                            </input>
+                        </GaussianBlur>
+                    </topInput>
+                </Blend>
+            </effect>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="151.0" layoutY="47.0" prefHeight="129.0" prefWidth="554.0" text="BOOK YOUR STAY" textFill="WHITE">
+            <font>
+                <Font name="Forte" size="62.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutY="284.0" prefHeight="80.0" prefWidth="997.0" style="-fx-background-color: #9E9E9E;" text="Your Booking Cart!" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="48.0" />
+            </font>
+        </Label>
+        <TableView fx:id="table4" layoutY="364.0" prefHeight="187.0" prefWidth="997.0">
+            <columns>
+                <TableColumn fx:id="bookid" prefWidth="170.33333206176758" text="Booking ID" />
+                <TableColumn fx:id="cindate" prefWidth="117.66667175292969" text="Check In Date" />
+                <TableColumn fx:id="coutdate" prefWidth="141.0" text="Check Out  Date" />
+                <TableColumn fx:id="night" prefWidth="45.0" text="Nights" />
+                <TableColumn fx:id="type" prefWidth="240.00003051757812" text="Rooms type" />
+                <TableColumn fx:id="no" prefWidth="77.6666259765625" text="Rooms  No" />
+                <TableColumn fx:id="roomprice" prefWidth="200.0" text="Rooms  price" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" layoutX="345.0" layoutY="602.0" prefHeight="52.0" prefWidth="115.0" style="-fx-background-color: #9E9E9E;" text="Total Bill:">
+            <font>
+                <Font name="Bell MT" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="bill" layoutX="481.0" layoutY="602.0" prefHeight="52.0" prefWidth="103.0">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Button layoutX="765.0" layoutY="607.0" mnemonicParsing="false" onAction="#checkout" prefHeight="45.0" prefWidth="174.0" text="See total bill">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

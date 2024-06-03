@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="875.0" style="-fx-background-color: #CDDC39;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.StocksController">
+    <children>
+        <JFXButton fx:id="b1" contentDisplay="TOP" layoutX="41.0" layoutY="17.0" onAction="#housekeeping" prefHeight="182.0" prefWidth="226.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="House Keeping" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d1.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b2" contentDisplay="TOP" layoutX="330.0" layoutY="17.0" onAction="#kitchen" prefHeight="182.0" prefWidth="226.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Kitchen" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d2.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b3" contentDisplay="TOP" layoutX="620.0" layoutY="17.0" onAction="#EngnMaint" prefHeight="182.0" prefWidth="229.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Engeeniering &amp; Maaintenance" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d3.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b4" contentDisplay="TOP" layoutX="40.0" layoutY="213.0" onAction="#security" prefHeight="182.0" prefWidth="205.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Security" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d4.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b5" contentDisplay="TOP" layoutX="330.0" layoutY="213.0" onAction="#kidsjone" prefHeight="182.0" prefWidth="229.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Kids jone" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d5.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b6" contentDisplay="TOP" layoutX="620.0" layoutY="213.0" onAction="#furniture" prefHeight="182.0" prefWidth="205.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Furniture" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d6.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b7" contentDisplay="TOP" layoutX="40.0" layoutY="411.0" onAction="#electronics" prefHeight="182.0" prefWidth="229.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Electronics" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d7.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b8" contentDisplay="TOP" layoutX="330.0" layoutY="411.0" onAction="#firstaid" prefHeight="182.0" prefWidth="229.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="First Aid" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d8.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXButton fx:id="b9" contentDisplay="TOP" layoutX="620.0" layoutY="411.0" onAction="#fireequipts" prefHeight="182.0" prefWidth="228.0" style="-fx-background-color: white;" stylesheets="@btn.css" text="Fire Equipments" visible="false">
+            <graphic>
+                <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/d9.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <AnchorPane fx:id="pane1" layoutX="21.0" layoutY="22.0" prefHeight="556.0" prefWidth="836.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="item1" layoutX="52.0" layoutY="14.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item2" layoutX="52.0" layoutY="54.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item3" layoutX="52.0" layoutY="94.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item4" layoutX="52.0" layoutY="134.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item5" layoutX="52.0" layoutY="174.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item6" layoutX="52.0" layoutY="214.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item7" layoutX="52.0" layoutY="254.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item8" layoutX="52.0" layoutY="294.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item9" layoutX="52.0" layoutY="334.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item10" layoutX="52.0" layoutY="374.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item11" layoutX="52.0" layoutY="414.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item12" layoutX="52.0" layoutY="454.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="item13" layoutX="52.0" layoutY="494.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <JFXButton fx:id="m1" contentDisplay="CENTER" layoutX="289.0" layoutY="14.0" onAction="#decrement1" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx1" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="14.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p1" contentDisplay="CENTER" layoutX="380.0" layoutY="14.0" onAction="#increment1" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m2" contentDisplay="CENTER" layoutX="289.0" layoutY="54.0" onAction="#decrement2" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx2" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="54.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p2" contentDisplay="CENTER" layoutX="380.0" layoutY="54.0" onAction="#increment2" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m3" contentDisplay="CENTER" layoutX="289.0" layoutY="94.0" onAction="#decrement3" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx3" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="94.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p3" contentDisplay="CENTER" layoutX="380.0" layoutY="94.0" onAction="#increment3" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m4" contentDisplay="CENTER" layoutX="289.0" layoutY="134.0" onAction="#decrement4" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx4" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="134.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p4" contentDisplay="CENTER" layoutX="380.0" layoutY="134.0" onAction="#increment4" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m5" contentDisplay="CENTER" layoutX="289.0" layoutY="174.0" onAction="#decrement5" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx5" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="174.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p5" contentDisplay="CENTER" layoutX="380.0" layoutY="174.0" onAction="#increment5" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m6" contentDisplay="CENTER" layoutX="289.0" layoutY="214.0" onAction="#decrement6" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx6" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="214.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p6" contentDisplay="CENTER" layoutX="380.0" layoutY="214.0" onAction="#increment6" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m7" contentDisplay="CENTER" layoutX="289.0" layoutY="254.0" onAction="#decrement7" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx7" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="254.0" prefHeight="25.0" prefWidth="43.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </TextField>
+                <JFXButton fx:id="p7" contentDisplay="CENTER" layoutX="380.0" layoutY="254.0" onAction="#increment7" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="m8" contentDisplay="CENTER" layoutX="289.0" layoutY="294.0" onAction="#decrement8" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx8" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="294.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p8" contentDisplay="CENTER" layoutX="380.0" layoutY="294.0" onAction="#increment8" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m9" contentDisplay="CENTER" layoutX="289.0" layoutY="334.0" onAction="#decrement9" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx9" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="334.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p9" contentDisplay="CENTER" layoutX="380.0" layoutY="334.0" onAction="#increment9" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m10" contentDisplay="CENTER" layoutX="289.0" layoutY="374.0" onAction="#decrement10" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx10" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="374.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p10" contentDisplay="CENTER" layoutX="380.0" layoutY="374.0" onAction="#increment10" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m11" contentDisplay="CENTER" layoutX="289.0" layoutY="414.0" onAction="#decrement11" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx11" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="414.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p11" contentDisplay="CENTER" layoutX="380.0" layoutY="414.0" onAction="#increment11" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m12" contentDisplay="CENTER" layoutX="289.0" layoutY="454.0" onAction="#decrement12" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx12" alignment="CENTER_RIGHT" layoutX="329.0" layoutY="454.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p12" contentDisplay="CENTER" layoutX="380.0" layoutY="454.0" onAction="#increment12" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="m13" contentDisplay="CENTER" layoutX="289.0" layoutY="494.0" onAction="#decrement13" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #00BCD4;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/-.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <TextField fx:id="tx13" alignment="CENTER_RIGHT" layoutX="328.0" layoutY="494.0" prefHeight="25.0" prefWidth="43.0" />
+                <JFXButton fx:id="p13" contentDisplay="CENTER" layoutX="380.0" layoutY="494.0" onAction="#increment13" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #f44336;" text=" ">
+                    <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/+.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save1" layoutX="677.0" layoutY="484.0" onAction="#update1" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save2" layoutX="677.0" layoutY="484.0" onAction="#update2" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save3" layoutX="677.0" layoutY="484.0" onAction="#update3" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save4" layoutX="677.0" layoutY="484.0" onAction="#update4" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save5" layoutX="677.0" layoutY="484.0" onAction="#update5" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save6" layoutX="677.0" layoutY="484.0" onAction="#update6" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save7" layoutX="677.0" layoutY="484.0" onAction="#update7" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save8" layoutX="677.0" layoutY="484.0" onAction="#update8" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="save9" layoutX="677.0" layoutY="484.0" onAction="#update9" style="-fx-background-color: #FF9800;" stylesheets="@ButtonAdmin.css" text="Save">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton layoutX="592.0" layoutY="484.0" onAction="#back" style="-fx-background-color: #009688;" text="Back">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="554.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image1.jpg" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="title" alignment="CENTER" editable="false" layoutX="544.0" layoutY="306.0" prefHeight="37.0" prefWidth="204.0" />
+                <TextField fx:id="ID" editable="false" layoutX="554.0" layoutY="54.0" visible="false" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

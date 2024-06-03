@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="875.0" style="-fx-background-color: #64B5F6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.CheckoutController">
+    <children>
+        <TableView fx:id="tab" layoutX="32.0" layoutY="41.0" prefHeight="420.0" prefWidth="806.0">
+            <columns>
+                <TableColumn fx:id="col1" prefWidth="208.33333587646484" text="Name" />
+                <TableColumn fx:id="col2" prefWidth="168.66665649414062" text="email" />
+                <TableColumn fx:id="col3" prefWidth="259.3333435058594" text="Booking No" />
+                <TableColumn fx:id="col4" prefWidth="134.33331298828125" text="Payment" />
+                <TableColumn fx:id="col5" minWidth="0.0" prefWidth="234.66668701171875" text="Time" />
+            </columns>
+        </TableView>
+        <Label layoutX="488.0" layoutY="502.0" text="Acquisition :">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="49.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/cash-512.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Label>
+        <Label fx:id="deposit" layoutX="667.0" layoutY="513.0" text="00.00 BDT">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

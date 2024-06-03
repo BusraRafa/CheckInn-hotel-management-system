@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="978.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.B00kRoomController">
+    <stylesheets>
+        <URL value="@../../../../../Documents/NetBeansProjects/JavaFXApplication3/src/javafxapplication3/bookroom.css" />
+    </stylesheets>
+    <children>
+        <ImageView fitHeight="210.0" fitWidth="996.0" layoutX="2.0" pickOnBounds="true">
+            <image>
+                <Image url="@../image/S4.jpg" />
+            </image>
+            <effect>
+                <Blend opacity="0.36">
+                    <topInput>
+                        <GaussianBlur radius="12.31">
+                            <input>
+                                <Shadow />
+                            </input>
+                        </GaussianBlur>
+                    </topInput>
+                </Blend>
+            </effect>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="257.0" layoutY="45.0" prefHeight="129.0" prefWidth="532.0" text="BOOK YOUR STAY" textFill="WHITE">
+            <font>
+                <Font name="Forte" size="62.0" />
+            </font>
+        </Label>
+        <AnchorPane fx:id="pan1" layoutY="217.0" prefHeight="481.0" prefWidth="983.0">
+            <children>
+                <Label fx:id="room1" alignment="TOP_LEFT" layoutX="60.0" layoutY="178.0" prefHeight="32.0" prefWidth="291.0" text="DELUXE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="name1" alignment="TOP_LEFT" layoutX="60.0" layoutY="213.0" prefHeight="32.0" prefWidth="321.0" text="Largest Guest room, 2 Twin/Single Bed(s)">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label alignment="TOP_LEFT" layoutX="60.0" layoutY="278.0" prefHeight="32.0" prefWidth="207.0" text="Room service, 24-Hour">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="pr1" alignment="TOP_LEFT" layoutX="60.0" layoutY="313.0" prefHeight="32.0" prefWidth="207.0" text="8082 BDT/Per Night">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="room2" alignment="TOP_LEFT" layoutX="385.0" layoutY="178.0" prefHeight="32.0" prefWidth="270.0" text="DELUXE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="name2" alignment="TOP_LEFT" layoutX="385.0" layoutY="213.0" prefHeight="32.0" prefWidth="301.0" text="Smaller Guest room, 1 Queen">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label alignment="TOP_LEFT" layoutX="385.0" layoutY="278.0" prefHeight="32.0" prefWidth="207.0" text="Room service, 24-Hour">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="pr2" alignment="TOP_LEFT" layoutX="385.0" layoutY="313.0" prefHeight="32.0" prefWidth="207.0" text="8082 BDT/Per Night">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="room3" alignment="TOP_LEFT" layoutX="700.0" layoutY="178.0" prefHeight="32.0" prefWidth="281.0" text="DELUXE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="name3" alignment="TOP_LEFT" layoutX="700.0" layoutY="213.0" prefHeight="32.0" prefWidth="293.0" text="Smaller Guest room, 1 Queen">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lbl" alignment="TOP_LEFT" layoutX="700.0" layoutY="278.0" prefHeight="32.0" prefWidth="207.0" text="Room service, 24-Hour">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="pr3" alignment="TOP_LEFT" layoutX="700.0" layoutY="313.0" prefHeight="32.0" prefWidth="207.0" text="8082 BDT/Per Night">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="roomNOO1" layoutX="221.0" layoutY="355.0" text="Label" visible="false" />
+                <Label fx:id="roomNOO2" layoutX="556.0" layoutY="365.0" prefHeight="56.0" prefWidth="74.0" text="Label" visible="false" />
+                <Label fx:id="roomNOO3" layoutX="861.0" layoutY="365.0" prefHeight="40.0" prefWidth="67.0" text="Label" visible="false" />
+                <ImageView fx:id="pic1" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r5.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic4" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r6.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic7" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r4.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic10" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/rc10.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic13" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r9.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic16" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r2.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic18" fitHeight="152.0" fitWidth="221.0" layoutX="59.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/rc11.jpg" />
+                    </image>
+                </ImageView>
+                <JFXButton buttonType="RAISED" layoutX="60.0" layoutY="363.0" onAction="#buttonBook" prefHeight="36.0" prefWidth="134.0" style="-fx-background-color: 3f3c3c; -fx-border-color: #81D4FA;" text="Book" textFill="#0d47a1">
+                    <font>
+                        <Font name="Constantia" size="27.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <ImageView fx:id="pic2" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r1.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic5" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r7.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic8" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r7.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic11" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r3.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic14" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/rc10.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic17" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r4.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic19" fitHeight="152.0" fitWidth="221.0" layoutX="385.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/rc12.jpg" />
+                    </image>
+                </ImageView>
+                <JFXButton buttonType="RAISED" layoutX="385.0" layoutY="363.0" onAction="#buttonBook2" prefHeight="36.0" prefWidth="134.0" style="-fx-background-color: 3f3c3c; -fx-border-color: #81D4FA;" text="Book" textFill="#0d47a1">
+                    <font>
+                        <Font name="Constantia" size="27.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <ImageView fx:id="pic3" fitHeight="152.0" fitWidth="221.0" layoutX="700.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r3.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic6" fitHeight="152.0" fitWidth="221.0" layoutX="700.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r2.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic9" fitHeight="152.0" fitWidth="221.0" layoutX="700.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r9.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic12" fitHeight="152.0" fitWidth="221.0" layoutX="700.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r4.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="pic15" fitHeight="152.0" fitWidth="221.0" layoutX="700.0" layoutY="21.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../image/r14.jpg" />
+                    </image>
+                </ImageView>
+                <JFXButton fx:id="bnt1" buttonType="RAISED" layoutX="700.0" layoutY="363.0" onAction="#buttonBook3" prefHeight="36.0" prefWidth="134.0" style="-fx-background-color: 3f3c3c; -fx-border-color: #81D4FA;" text="Book" textFill="#0d47a1">
+                    <font>
+                        <Font name="Constantia" size="27.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn1" layoutX="855.0" layoutY="425.0" onAction="#next2" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn2" layoutX="855.0" layoutY="425.0" onAction="#next3" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn3" layoutX="855.0" layoutY="425.0" onAction="#next4" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn4" layoutX="855.0" layoutY="425.0" onAction="#next5" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn5" layoutX="855.0" layoutY="425.0" onAction="#next6" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="morebtn6" layoutX="855.0" layoutY="425.0" onAction="#next7" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="MORE" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn1" layoutX="36.0" layoutY="425.0" onAction="#prev1" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn2" layoutX="36.0" layoutY="425.0" onAction="#prev2" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn3" layoutX="36.0" layoutY="425.0" onAction="#prev3" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn4" layoutX="36.0" layoutY="425.0" onAction="#prev4" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn5" layoutX="36.0" layoutY="425.0" onAction="#prev5" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="prevbtn6" layoutX="36.0" layoutY="425.0" onAction="#prev6" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #000000;" text="PREVIOUS" textFill="#f8f2f2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <Label fx:id="bd1" alignment="TOP_LEFT" layoutX="60.0" layoutY="247.0" prefHeight="32.0" prefWidth="297.0" text="Largest Guest room, 2 Twin/Single Bed(s)">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="bd2" alignment="TOP_LEFT" layoutX="385.0" layoutY="247.0" prefHeight="32.0" prefWidth="290.0" text="Largest Guest room, 2 Twin/Single Bed(s)">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="bd3" alignment="TOP_LEFT" layoutX="700.0" layoutY="247.0" prefHeight="32.0" prefWidth="252.0" text="Largest Guest room, 2 Twin/Single Bed(s)">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

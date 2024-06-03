@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="689.0" prefWidth="780.0" style="-fx-background-color: #383838;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.ContinentalController">
+    <children>
+        <ImageView fitHeight="694.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/recipe_stickers_2.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="81.0" fitWidth="186.0" layoutX="415.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/text2image_H1872883_20210319_153718.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="136.0" fitWidth="160.0" layoutX="229.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/american%20breakfast.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="118.0" fitWidth="175.0" layoutX="427.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/English%20breakfast.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="140.0" fitWidth="150.0" layoutX="610.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/500_F_203722869_5518X3dA8HzSszfae2YqAi75tJroZWlV.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="foodname1" alignment="CENTER" layoutX="229.0" layoutY="232.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="English breakfast" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="foodname2" alignment="CENTER" layoutX="425.0" layoutY="232.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Egg cups" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="foodname3" alignment="CENTER" layoutX="615.0" layoutY="232.0" prefHeight="32.0" prefWidth="150.0" style="-fx-background-color: #505050;" text="American breakfast" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="139.0" fitWidth="162.0" layoutX="228.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/chicken%20cheese%20salad-620.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="139.0" fitWidth="162.0" layoutX="424.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/iStock.613035036.000.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="93.0" fitWidth="160.0" layoutX="610.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/stuffed-potatos-620.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="foodname4" alignment="CENTER" layoutX="229.0" layoutY="412.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Chicken Salad" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="foodname5" alignment="CENTER" layoutX="425.0" layoutY="412.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Potato Pie" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="foodname6" alignment="CENTER" layoutX="610.0" layoutY="412.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Stuffed Potato " textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="111.0" fitWidth="162.0" layoutX="228.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Batter.fish.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="150.0" fitWidth="162.0" layoutX="424.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/lamb-salad-620.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="foodname7" alignment="CENTER" layoutX="229.0" layoutY="592.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Batter Fish" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="foodname8" alignment="CENTER" layoutX="425.0" layoutY="592.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Roast Lamb" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="620.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/pastries.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="foodname9" alignment="CENTER" layoutX="615.0" layoutY="586.0" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #505050;" text="Pastries" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Button alignment="CENTER" layoutX="641.0" layoutY="646.0" mnemonicParsing="false" onAction="#backbtn" prefHeight="40.0" prefWidth="125.0" style="-fx-background-color: #505050;" text="Back&lt;-" textFill="#f2ebeb">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="226.0" layoutY="105.0" mnemonicParsing="false" onAction="#englishbreakfast" prefHeight="181.0" prefWidth="162.0" style="-fx-background-color: TRANSPARENT;" textFill="#fffefe">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="426.0" layoutY="100.0" mnemonicParsing="false" onAction="#eggcups" prefHeight="188.0" prefWidth="150.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="610.0" layoutY="110.0" mnemonicParsing="false" onAction="#americanbreakfast" prefHeight="181.0" prefWidth="150.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="226.0" layoutY="307.0" mnemonicParsing="false" onAction="#chickensalad" prefHeight="163.0" prefWidth="162.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="424.0" layoutY="307.0" mnemonicParsing="false" onAction="#potatopie" prefHeight="163.0" prefWidth="162.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="611.0" layoutY="304.0" mnemonicParsing="false" onAction="#stuffedpotato" prefHeight="170.0" prefWidth="160.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="227.0" layoutY="491.0" mnemonicParsing="false" onAction="#batterfish" prefHeight="163.0" prefWidth="162.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="425.0" layoutY="489.0" mnemonicParsing="false" onAction="#roastlamb" prefHeight="163.0" prefWidth="162.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="619.0" layoutY="487.0" mnemonicParsing="false" onAction="#pastries" prefHeight="151.0" prefWidth="150.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Label fx:id="price1" alignment="CENTER" layoutX="236.0" layoutY="271.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="315 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price2" alignment="CENTER" layoutX="433.0" layoutY="271.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="215 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price3" alignment="CENTER" layoutX="618.0" layoutY="271.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="445 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price6" alignment="CENTER" layoutX="618.0" layoutY="450.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="315 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price5" alignment="CENTER" layoutX="433.0" layoutY="450.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="500 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price4" alignment="CENTER" layoutX="236.0" layoutY="450.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="310 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price9" alignment="CENTER" layoutX="618.0" layoutY="624.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="315 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price8" alignment="CENTER" layoutX="433.0" layoutY="635.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="315 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="price7" alignment="CENTER" layoutX="236.0" layoutY="635.0" prefHeight="21.0" prefWidth="147.0" style="-fx-background-color: #505050;" text="315 BDT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

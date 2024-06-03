@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="739.0" prefWidth="793.0" style="-fx-background-color: #383838;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.ChineseController">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="165.0" layoutX="201.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Dumplings-768x511.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="food1" alignment="CENTER" layoutX="201.0" layoutY="194.0" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #505050;" text="Dumpling" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="110.0" fitWidth="200.0" layoutX="394.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Hot-and-sour-soup-768x459.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="733.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/istockphoto-584749570-612x612.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="197.0" layoutX="353.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/text2image_T8739584_20210319_162723.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="118.0" fitWidth="176.0" layoutX="593.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Roasted-duck-768x494.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="food2" alignment="CENTER" layoutX="395.0" layoutY="194.0" prefHeight="36.0" prefWidth="184.0" style="-fx-background-color: #505050;" text="Hot and Sour Soup" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="food3" alignment="CENTER" layoutX="589.0" layoutY="194.0" prefHeight="36.0" prefWidth="184.0" style="-fx-background-color: #505050;" text="Roasted Duck" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="165.0" layoutX="201.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Bubble-tea-768x576.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="124.0" fitWidth="184.0" layoutX="394.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/you-xiang-rou-si-768x576.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="food4" alignment="CENTER" layoutX="201.0" layoutY="402.0" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #505050;" text="Bubble Tea" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="food5" alignment="CENTER" layoutX="389.0" layoutY="402.0" prefHeight="36.0" prefWidth="176.0" style="-fx-background-color: #505050;" text="Sichuan Shredded Chicken" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="184.0" layoutX="578.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Whole-steamed-fish-768x576.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="food6" alignment="CENTER" layoutX="583.0" layoutY="402.0" prefHeight="36.0" prefWidth="176.0" style="-fx-background-color: #505050;" text="Whole steamed fish" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="124.0" fitWidth="157.0" layoutX="206.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/fried%20rice.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="124.0" fitWidth="165.0" layoutX="404.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/roll.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="113.0" fitWidth="176.0" layoutX="585.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/orange.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="food7" alignment="CENTER" layoutX="197.0" layoutY="614.0" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #505050;" text="Shrimp Fried Rice" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="food8" alignment="CENTER" layoutX="398.0" layoutY="614.0" prefHeight="36.0" prefWidth="176.0" style="-fx-background-color: #505050;" text="Spring Rolls" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="food9" alignment="CENTER" layoutX="583.0" layoutY="603.0" prefHeight="36.0" prefWidth="176.0" style="-fx-background-color: #505050;" text="Orange Chicken" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr1" alignment="CENTER" layoutX="226.0" layoutY="239.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="380 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Button layoutX="645.0" layoutY="674.0" mnemonicParsing="false" onAction="#backbtn" prefHeight="44.0" prefWidth="124.0" style="-fx-background-color: #505050;" text="Back&lt;-" textFill="#fcfafa">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="202.0" layoutY="69.0" mnemonicParsing="false" onAction="#Dumpling" prefHeight="191.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="394.0" layoutY="70.0" mnemonicParsing="false" onAction="#soup" prefHeight="191.0" prefWidth="184.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="593.0" layoutY="69.0" mnemonicParsing="false" onAction="#duck" prefHeight="187.0" prefWidth="176.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="394.0" layoutY="271.0" mnemonicParsing="false" onAction="#shredChicken" prefHeight="208.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="201.0" layoutY="271.0" mnemonicParsing="false" onAction="#bubbleTea" prefHeight="199.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="588.0" layoutY="490.0" mnemonicParsing="false" onAction="#orange" prefHeight="178.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="579.0" layoutY="278.0" mnemonicParsing="false" onAction="#fish" prefHeight="195.0" prefWidth="184.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="202.0" layoutY="490.0" mnemonicParsing="false" onAction="#friedrice" prefHeight="183.0" prefWidth="155.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="404.0" layoutY="490.0" mnemonicParsing="false" onAction="#roll" prefHeight="187.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Label fx:id="pr2" alignment="CENTER" layoutX="429.0" layoutY="239.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="180 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr3" alignment="CENTER" layoutX="630.0" layoutY="239.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="480 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr6" alignment="CENTER" layoutX="624.0" layoutY="450.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="750 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr5" alignment="CENTER" layoutX="429.0" layoutY="450.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="350 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr4" alignment="CENTER" layoutX="227.0" layoutY="450.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="250 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr7" alignment="CENTER" layoutX="222.0" layoutY="653.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="450 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr8" alignment="CENTER" layoutX="429.0" layoutY="653.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="250 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="pr9" alignment="CENTER" layoutX="612.0" layoutY="641.0" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #505050;" text="400 BDT" textFill="#f5efef">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
