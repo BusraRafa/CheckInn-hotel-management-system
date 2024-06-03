@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" cacheShape="false" centerShape="false" scaleShape="false" stylesheets="@style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkinn.LogInFXMLController">
+    <children>
+        <AnchorPane id="AnchorPane" prefHeight="622.0" prefWidth="761.0">
+            <effect>
+                <Blend />
+            </effect>
+            <children>
+                <AnchorPane fx:id="pane1" layoutX="381.0" layoutY="84.0" pickOnBounds="false" prefHeight="455.0" prefWidth="362.0" style="-fx-background-color: #9C2827;">
+                    <children>
+                        <Label layoutX="146.0" layoutY="51.0" text="Sign In" textFill="WHITESMOKE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="userName" blendMode="ADD" layoutX="18.0" layoutY="132.0" prefHeight="45.0" prefWidth="326.0" promptText="User Name/Email" style="-fx-background-color: #FFA500;">
+                            <font>
+                                <Font name="Arial Unicode MS" size="20.0" />
+                            </font>
+                        </TextField>
+                        <PasswordField fx:id="password" blendMode="ADD" layoutX="17.0" layoutY="205.0" prefHeight="45.0" prefWidth="326.0" promptText="Password" style="-fx-background-color: #FFA500;">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </PasswordField>
+                        <Button layoutX="82.0" layoutY="285.0" mnemonicParsing="false" onAction="#OpenUserPanel" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: #FF8C00;" text="Log In as User" textFill="#fffbfb" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="82.0">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button layoutX="82.0" layoutY="349.0" mnemonicParsing="false" onAction="#openAdmin" prefHeight="25.0" prefWidth="193.0" style="-fx-background-color: #FF8C00;" text="Log In as Admin" textFill="#fffbfb" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="82.0">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button layoutX="102.0" layoutY="415.0" mnemonicParsing="false" onAction="#resetpass" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #9C2827;" text="Forgot Password?" textFill="#eee3e3" textOverrun="WORD_ELLIPSIS" underline="true">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <JFXTextField fx:id="psfld" editable="false" layoutX="54.0" layoutY="14.0" visible="false" />
+                    </children>
+                </AnchorPane>
+                <Button fx:id="btnSingUp" layoutX="57.0" layoutY="356.0" mnemonicParsing="false" onAction="#openSingUp" prefHeight="37.0" prefWidth="101.0" style="-fx-background-color: #FF8C00;" text="Sign up">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Label layoutX="41.0" layoutY="136.0" prefHeight="153.0" prefWidth="288.0" text="Welcome to hotel &#10;Check  Inn!">
+                    <font>
+                        <Font name="System Bold Italic" size="32.0" />
+                    </font>
+                    <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.8552631735801697" green="0.3246832489967346" blue="0.3246832489967346" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </RadialGradient>
+                    </textFill>
+                </Label>
+                <AnchorPane fx:id="pane2" layoutX="381.0" layoutY="84.0" pickOnBounds="false" prefHeight="455.0" prefWidth="362.0" style="-fx-background-color: #9C2827;" visible="false">
+                    <children>
+                        <Label layoutX="108.0" layoutY="63.0" text="Reset Password" textFill="WHITESMOKE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="mailfld" blendMode="ADD" layoutX="18.0" layoutY="132.0" prefHeight="45.0" prefWidth="326.0" promptText="Enter your email here" style="-fx-background-color: #FFA500;">
+                            <font>
+                                <Font name="Arial Unicode MS" size="20.0" />
+                            </font>
+                        </TextField>
+                        <Button layoutX="85.0" layoutY="235.0" mnemonicParsing="false" onAction="#passONmail" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: #FF8C00;" text="Submit" textFill="#fffbfb">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button layoutY="429.0" mnemonicParsing="false" onAction="#backtologin" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #9C2827;" text="← Back" textFill="#eee3e3" textOverrun="WORD_ELLIPSIS">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <Label fx:id="name" layoutX="80.0" layoutY="67.0" text="Label" textFill="WHITE" visible="false" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
