@@ -61,6 +61,6 @@
 
 ---
 
-## Screenshots
+## Showcasing Check Inn
 
 *(Include screenshots here for login, room booking, admin dashboard, etc.)*
