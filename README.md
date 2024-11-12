@@ -1,33 +1,66 @@
-INTRODUCTION
+# Check Inn - Hotel Management System
 
-THE NAME OF THE PROJECT IS “CHECK INN” BASED ON THE HOTEL MANAGEMENT SYSTEM. THE OBJECTIVE 
-OF THE PROJECT IS TO COMPUTERIZE THE SYSTEM OF THE HOTEL. “CHECK INN'' IS THE PROJECT THAT NOT 
-ONLY KEEPS THE RECORD OF VARIOUS PEOPLE LIKE CUSTOMERS, MANAGERS ETC. BUT AS WELL AS IT REDUCES 
-THE EXTENSIVE PAPERWORK IN THE PRESENT SYSTEM MANUALLY. IT WILL MAKE THE SYSTEM MORE VERSATILE 
-AND USER FRIENDLY. BY THE SAME TOKEN, KEEP THE TRACK OF ALL KINDS OF DATA FROM THE FIRST. IT ALSO 
-CALCULATES THE PROPER BILLING SLIP OF CUSTOMERS AS THEY WANT TO. THIS PROJECT IS BASED ON 
-DESCRIPTION ABOUT THE STRUCTURE OF HOTEL MANAGEMENT SYSTEM.
-THE PROJECT CONTAINS:
-<br>1. RAPID PROCESS OF RESERVATION. USERS CAN FIND INSTANT WHETHER A ROOM IS AVAILABLE OR 
-NOT.
-<br>2. KEEPING THE RECORD OF ALL PERSONS LIKE CUSTOMERS, MANAGERS WITH THEIR DETAILS ETC.
-<br>3. MAINTAINS A PROPER LIST OF ALL PERSONS FROM GUESTS TO PERSONNEL.
-<br>4. ENSURING PROPER DETAILED BILL SLIPS.
+**Check Inn** is a desktop-based hotel management application designed to simplify and streamline hotel operations. Developed in Java with a JavaFX interface and MySQL database, it provides an efficient way to manage reservations, guests, staff, billing, and food orders.
 
-NECESSARY SOFTWARE TOOLS :
-THIS ENTIRE SYSTEM DEVELOPMENT IS JAVA-BASED APPLETS. THIS INCLUDES
-SOME MUST HAVE TOOLS
-1. NETBEANS IDE
-2. JDK 1.8
-3. JAVAFX 15
-4. SCENE BUILDER 
-5. MYSQL
-6. XAMPP
+---
 
-JAVA LIBRARIES:
-1. MYSQL-CONNECTOR-JAVA-8.0.23.JAR
-2. JFOENIX-9.0.10.JAR
-3. JFOENIX-8.0.2.JAR
-4. ACTIVATION.JAR
-5. COMMONS -CODEC-1.15.JAR
-6. MAIL.JAR
+## Features
+
+- **User Login & Registration**: Secure user and admin login with OTP authentication. Admins can create and manage staff accounts, while users can register directly.
+- **Room Booking**: Users can view, compare, and book rooms based on availability.
+- **Food Ordering**: In-app food menu with add-to-cart and checkout features, covering multiple cuisines.
+- **Billing & Checkout**: Generates detailed bills, including room and food expenses, allowing seamless check-out.
+- **Admin Dashboard**: Manage bookings, room availability, guest records, staff information, and stock for hotel resources.
+  
+---
+
+## Technologies Used
+
+- **Frontend**: JavaFX (Scene Builder)
+- **Backend**: Java (NetBeans IDE)
+- **Database**: MySQL (XAMPP Server)
+- **Libraries**: 
+  - MySQL Connector for Java
+  - JFoenix for UI components
+  - Commons Codec and Mail.jar for security and notifications
+
+---
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/BusraRafa/CheckInn-hotel-management-system.git
+    ```
+2. **Setup the Database**:
+   - Launch XAMPP and start the MySQL service.
+   - Import the SQL file (`check_inn.sql`) in phpMyAdmin to set up the necessary tables.
+3. **Configure Database Connection**:
+   - In the `Check Inn` project, configure your MySQL credentials in the codebase.
+4. **Run the Application**:
+   - Open the project in NetBeans or another IDE with JavaFX support.
+   - Run the main application file to start **Check Inn**.
+
+---
+
+## Usage
+
+- **User Section**:
+  - Register and login with OTP verification.
+  - Browse and book rooms, order food, and view booking cart.
+- **Admin Section**:
+  - Access the dashboard for real-time updates on room and guest status.
+  - Manage employees, stock, food pricing, and room availability.
+  
+---
+
+## Future Enhancements
+
+- Adding a graphical report system for admin insights.
+- Integrating additional payment options.
+
+---
+
+## Screenshots
+
+*(Include screenshots here for login, room booking, admin dashboard, etc.)*
