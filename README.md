@@ -63,4 +63,4 @@
 
 ## Showcasing Check Inn
 
-*(Include screenshots here for login, room booking, admin dashboard, etc.)*
+![MixCollage-13-Nov-2024-01-08-AM-116](https://github.com/user-attachments/assets/845cc775-6497-454e-b066-cda872023bdb)
