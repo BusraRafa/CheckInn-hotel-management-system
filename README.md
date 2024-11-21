@@ -63,7 +63,7 @@
 
 ## Showcasing Check Inn
 
-![Picsart_24-11-13_01-44-38-497](https://github.com/user-attachments/assets/bcfcf706-bd3c-4013-b53f-bb453c75d47f)
+![pixelcut-export](https://github.com/user-attachments/assets/2b5f51a7-d9fd-407c-808d-9118466cd6ac)
 
 ---
 
